@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+body {
+  font-family: Nunito, sans-serif;
+  color: aliceblue;
+}
+
+#page {
+  overflow-x: hidden;
+  background-color: rgb(43, 52, 65) ;
+}
+
+#page.toggled #sidebar {
+  margin-left: -15rem;
+}
+
+#sidebar {
+  min-height: 100vh;
+  margin-left: 0;
+  width: 15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar header {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#page-content {
+  min-height: 0;
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+
+input {
+  height: 100px;
+}
